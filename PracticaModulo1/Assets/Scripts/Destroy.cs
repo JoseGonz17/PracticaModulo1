@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Destroy : CoinCounter
 {
-    public GameObject puerta1, puerta2, puerta3, puerta4, puerta5;
+    public GameObject puerta1, puerta2, puerta3, puerta4, puerta5,puerta6;
 
     void Update() 
     {
@@ -27,6 +27,10 @@ public class Destroy : CoinCounter
         if (currentNumberOfCoins == 5)
         {
             Destroy(puerta5, 0);
+        }
+        if (currentNumberOfCoins == 6)
+        {
+            Destroy(puerta6, 0);
         }
     }
 
