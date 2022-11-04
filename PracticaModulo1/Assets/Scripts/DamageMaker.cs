@@ -10,5 +10,6 @@ public class DamageMaker : PlayerTrigger
     {
         PlayerHealth health = playerObject.GetComponent<PlayerHealth>();
         health.TakeDamage(damageAmount);
+        gameObject.SetActive(false);
     }
 }

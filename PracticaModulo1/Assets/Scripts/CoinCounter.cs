@@ -17,6 +17,6 @@ public class CoinCounter : PlayerTrigger
         {
             coinText.text = currentNumberOfCoins.ToString();
         }
-        Debug.Log("he recogido una moneda, tengo: " + currentNumberOfCoins + "monedas");
+        Debug.Log("he recogido una moneda, ahora tengo: " + currentNumberOfCoins + " monedas, necesito tener 6 para abrir la puerta negra");
     }
 }
